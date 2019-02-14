@@ -1,0 +1,51 @@
+
+body {
+    background-color: brown;
+    -webkit-animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from{background-color: red;}
+    to{background-color: blue;}
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+h2, h3, p {
+    color: yellow;
+}
+
+p, li {
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.adhd {
+    -webkit-animation: changes 5s infinite;
+}
+
+@keyframes changes {
+    from{color: green;}
+    to{color: black;}
+}
+
+.bitch {
+    color: white;
+}
+
+.walls {
+    color: orange;
+}
+
+.i {
+    color: gold;
+}
+
+.three {
+    color: green;
+}
+
